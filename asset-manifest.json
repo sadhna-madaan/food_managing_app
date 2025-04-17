@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/food_managing_app/static/css/main.7d63e756.css",
+    "main.js": "/food_managing_app/static/js/main.794b99d4.js",
+    "static/js/453.2350fff2.chunk.js": "/food_managing_app/static/js/453.2350fff2.chunk.js",
+    "index.html": "/food_managing_app/index.html",
+    "main.7d63e756.css.map": "/food_managing_app/static/css/main.7d63e756.css.map",
+    "main.794b99d4.js.map": "/food_managing_app/static/js/main.794b99d4.js.map",
+    "453.2350fff2.chunk.js.map": "/food_managing_app/static/js/453.2350fff2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d63e756.css",
+    "static/js/main.794b99d4.js"
+  ]
+}
