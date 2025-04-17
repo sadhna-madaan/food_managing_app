@@ -111,10 +111,9 @@ function App() {
 
   //filter the fav
 
-  const filtereFavoritesItems=  favorites.filter((item)=>
-    item.title.toLowerCase().includes(filteredState.filteredValue)
+const filtereFavoritesItems = (favorites || []).filter((item) =>
+  item?.title?.toLowerCase().includes((filteredState.filteredValue || "").toLowerCase())
 );
-
 const [theme,setTheme]=useState(false);
 useEffect(()=>{document.body.style.backgroundColor=theme ?"#eb9146":"#407891"},[theme]);
   return (
